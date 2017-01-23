@@ -1,5 +1,12 @@
 {
     "require": {
-        "zircote/swagger-php": "^2.0"
+        "zircote/swagger-php": "^2.0",
+        "symfony/routing": "^3.2"
+    },
+    "autoload": {
+        "classmap": [
+            "src/Controller",
+            "src/Model"
+        ]
     }
 }

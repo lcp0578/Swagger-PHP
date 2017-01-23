@@ -1,7 +1,6 @@
 <?php
 namespace Controller;
 
-
 /**
  * 
  * @SWG\Swagger(
@@ -23,7 +22,7 @@ class IndexController
      *   summary="test index method",
      *   @SWG\Response(
      *     response=200,
-     *     description="A list with products"
+     *     description="hello swagger"
      *   ),
      *   @SWG\Response(
      *     response="default",

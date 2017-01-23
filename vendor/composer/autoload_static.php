@@ -13,12 +13,17 @@ class ComposerStaticInit521c2fe0f8e0ac14e9838679337658f7
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
+            'Symfony\\Component\\Routing\\' => 26,
             'Symfony\\Component\\Finder\\' => 25,
             'Swagger\\' => 8,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Symfony\\Component\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
         'Symfony\\Component\\Finder\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/finder',
