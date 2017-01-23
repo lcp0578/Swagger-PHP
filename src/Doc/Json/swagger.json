@@ -1,0 +1,14 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "My first swagger documented API",
+        "version": "1.0.0"
+    },
+    "host": "www.swagger.com",
+    "basePath": "/index",
+    "schemes": [
+        "http"
+    ],
+    "paths": {},
+    "definitions": {}
+}
