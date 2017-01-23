@@ -2,6 +2,7 @@
 /**
  * Swagger bootstrap
  */
+require __DIR__.'/../vendor/autoload.php';
 
 $pathinfo = isset($_SERVER['PATH_INFO']) ? $_SERVER['PATH_INFO'] : '';
 $params = [];
@@ -10,7 +11,6 @@ if(empty($pathinfo)){
     $method = 'index';
 }else{
     $pathinfo = trim($pathinfo, '/');
-    var_dump($pathinfo);
     if(false === strpos($pathinfo, '/')){
         $controller = $pathinfo;
         $method = 'index';
